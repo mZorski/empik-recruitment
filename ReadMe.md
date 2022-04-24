@@ -2,9 +2,16 @@
 
 ## Table of contents
 
-1. [Prerequisites](#prerequisites)
-2. [Running application](#running-application)
-3. [Cleaning database](#cleaning-database)
+1. [Basic information](#basic-information)
+2. [Prerequisites](#prerequisites)
+3. [Cloning application](#cloning-application)
+4. [Running application](#running-application)
+5. [Stopping application](#stopping-application)
+6. [Cleaning database](#cleaning-database)
+
+## Basic information
+
+Application runs under `https://localhost:8082/`
 
 ## Prerequisites
 
@@ -13,33 +20,37 @@ To be able to run this application, you need:
 1. Git
 2. Java +11
 
-## Running application
+## Cloning application
 
-1. Clone repository
+1. Clone this repository
 
    `git clone https://github.com/mZorski/empik-recruitment`
-
 
 2. Go to project's root directory
 
    `cd empik-recruitment`
 
+## Running application
 
-3. Build executable jar (uber jar)
+1. Build and run executable jar
+   1. Build executable jar (uber jar)
 
-   `./gradlew clean bootJar`
+      `./gradlew clean bootJar`
 
+   2. Run application
 
-4. Run application
+      `java -jar ./build/libs/empik.jar`
 
-   `java -jar ./build/libs/empik.jar`
+2. Run application using gradle task
 
+   `./gradlew bootRun`
 
-5. Stop application
+## Stopping application
 
-   Press`ctrl + c`
+Press `ctrl + c`
 
 ## Cleaning database
 
 1. Stop application
 2. Run `./gradlew removeDbFiles`
+3. Start application
