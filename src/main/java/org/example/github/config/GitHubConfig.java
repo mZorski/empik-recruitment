@@ -1,4 +1,4 @@
-package org.example.config;
+package org.example.github.config;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.MapperFeature;
@@ -13,7 +13,7 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 import org.springframework.web.client.RestTemplate;
 
 @Configuration
-public class Config {
+public class GitHubConfig {
 
 	@Bean
 	public RestTemplate restTemplate() {
