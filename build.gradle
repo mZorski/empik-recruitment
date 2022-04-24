@@ -34,3 +34,8 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+task removeDbFiles(type: Delete) {
+    println("Removing database files...")
+    delete("empik-db.mv.db", "empik-db.trace.db")
+}
