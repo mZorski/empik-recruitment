@@ -2,8 +2,8 @@
 
 ## Table of contents
 
-1. [Prerequisites](https://github.com/mZorski/empik-recruitment#prerequisites)
-2. [Running application](https://github.com/mZorski/empik-recruitment#running-application)
+1. [Prerequisites](#prerequisites)
+2. [Running application](#running-application)
 3. [Cleaning database](#cleaning-database)
 
 ## Prerequisites
