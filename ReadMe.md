@@ -34,6 +34,7 @@ To be able to run this application, you need:
 ## Running application
 
 0. In case of Unix/MacOS operating systems, you may need to make `gradlew` file executable
+
    `chmod +x ./gradlew`
 
 1. Build and run executable jar
